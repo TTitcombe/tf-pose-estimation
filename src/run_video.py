@@ -18,7 +18,7 @@ logger.addHandler(ch)
 
 fps_time = 0
 
-stringToBool(input_str):
+def stringToBool(input_str):
     if input_str.lower() in ('true', '1'):
         return True
     elif input_str.lower() in ('false', '0'):
